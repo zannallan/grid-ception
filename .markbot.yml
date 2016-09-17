@@ -16,6 +16,7 @@ html:
     bestPractices: true
     outline: true
     has:
+      - ['link[href*="grid.css"] + link[href*="main.css"]', 'The `grid.css` file must come before the `main.css` file.']
       - 'h1'
       - 'h2'
       - 'p'
